@@ -1,0 +1,18 @@
+// Nav
+
+.nav {
+    font-size: 18px;
+    font-weight: 200;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px;
+    }
+
+    a {
+        letter-spacing: -0.44px;
+        text-decoration: none;
+    }
+}
