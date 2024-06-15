@@ -1,5 +1,20 @@
 // Btn
 
 .btn {
-    
+    color: #fff;
+    background: linear-gradient(to bottom right, #EC3A3A, #F87B46);
+    padding: 12px 72px 12px 24px;
+    position: relative;
+    border-radius: 99em;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 16.5px;
+        top: 50%;
+        right: 26px;
+        transform: translateY(-50%);
+        background-image: url('../src/images/arrow-right.svg');
+    }
 }

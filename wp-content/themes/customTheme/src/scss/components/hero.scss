@@ -1,0 +1,22 @@
+// Hero
+
+.hero {
+
+    .hero__inner {
+        display: grid;
+        grid-template-columns: 40.3% auto;
+        gap: 100px;
+    }
+
+    .hero__content strong {
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.875;
+        color: #28418C;
+    }
+
+    .hero__content span {
+        color: #FF562F;
+    }        
+}

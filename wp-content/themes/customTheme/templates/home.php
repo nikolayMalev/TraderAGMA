@@ -62,5 +62,35 @@
             </div><!-- /.header__inner -->
         </div><!-- /.shell --> 
     </header><!-- /.header --> 
+
+    <main class="main">
+        <section class="hero">
+            <div class="shell shell--large">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <p>
+                            <strong>FPTraders</strong>
+                        </p>
+
+                        <h1>Wanted</h1>
+
+                        <p>Test your shootout skills and become a FPtraider <span>Legend.</span> </p>
+
+                        <p>Advance at your own speed and get up to <spna>$500’000</spna> in funding.</p>
+
+                        <div class="hero__actions">
+                            <a href="#" class="btn btn--outlined">Read FAQ</a>
+
+                            <a href="#" class="btn">Start Trading</a>
+                        </div><!-- /.hero__actions -->
+                    </div><!-- /.hero__content -->
+
+                    <div class="hero__image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/hero-image.jpg" alt="Hero Image">
+                    </div><!-- /.hero__image -->
+                </div><!-- /.hero__inner -->
+            </div><!-- /.shell-->
+        </section><!-- /.hero --> 
+    </main><!-- /.main -->
 </body>
 </html>
