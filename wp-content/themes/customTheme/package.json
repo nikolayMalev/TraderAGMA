@@ -1,0 +1,13 @@
+{
+  "name": "Custom Theme",
+  "version": "1.0.0",
+  "description": "Custom Theme",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass src/scss/style.scss dist/css/style.css --style compressed",
+    "watch:sass": "npm run compile:sass -- --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}
