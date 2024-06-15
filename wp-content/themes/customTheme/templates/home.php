@@ -9,6 +9,5 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css">
 </head> 
 <body>
-    <h1>Hello World!</h1>
 </body>
 </html>
