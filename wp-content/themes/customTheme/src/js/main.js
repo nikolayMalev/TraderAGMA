@@ -2,4 +2,6 @@
 
 console.log('Loaded');
 
-import "./modules/accordion-criteria.js"; // Example import from modules directory
+import "./modules/accordion-criteria.js"; 
+import "./modules/accordion-faq.js"; 
+

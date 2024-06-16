@@ -297,27 +297,87 @@
                     </div><!-- /.section__head -->
 
                     <div class="section__body">
-                        <div class="accordion js-accordion">
-                            <div class="accordion__section is-current">
-                                <div class="accordion__head"></div><!-- /.accordion__head -->
+                        <div class="accordion-faq js-accordion-faq">
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/investor.svg" class='card__image'>
+
+                                    </div><!-- /.accordion__image -->
+
+                                    <div class="accordion__title">
+                                        <div class="accordion__entry">
+                                            <h5>Getting started</h5>
+
+                                            <p>General information to know about TopTier Trader</p>
+                                        </div><!-- /.accordion__entry -->
+                                        
+                                        <a href="#" class="accordion__btn"></a>
+                                    </div><!-- /.accordion__title -->
+                                </div><!-- /.accordion__head -->
 
                                 <div class="accordion__body"></div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
-                                <div class="accordion__head"></div><!-- /.accordion__head -->
+                                <div class="accordion__head">
+                                    <div class="accordion__image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/dashboard.svg" class='card__image'>
+
+                                    </div><!-- /.accordion__image -->
+
+                                    <div class="accordion__title">
+                                        <div class="accordion__entry">
+                                            <h5>Dashboard</h5>
+
+                                            <p>How to navigate the dashboard </p>
+                                        </div><!-- /.accordion__entry -->
+                                        
+                                        <a href="#" class="accordion__btn"></a>
+                                    </div><!-- /.accordion__title -->
+                                </div><!-- /.accordion__head -->
 
                                 <div class="accordion__body"></div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
-                                <div class="accordion__head"></div><!-- /.accordion__head -->
+                                <div class="accordion__head">
+                                    <div class="accordion__image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/competition.svg" class='card__image'>
+
+                                    </div><!-- /.accordion__image -->
+
+                                    <div class="accordion__title">
+                                        <div class="accordion__entry">
+                                            <h5>Competition</h5>
+
+                                            <p>Information regarding our free monthly competition</p>
+                                        </div><!-- /.accordion__entry -->
+                                        
+                                        <a href="#" class="accordion__btn"></a>
+                                    </div><!-- /.accordion__title -->
+                                </div><!-- /.accordion__head -->
 
                                 <div class="accordion__body"></div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
-                                <div class="accordion__head"></div><!-- /.accordion__head -->
+                                <div class="accordion__head">
+                                    <div class="accordion__image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/wallet.svg" class='card__image'>
+
+                                    </div><!-- /.accordion__image -->
+
+                                    <div class="accordion__title">
+                                        <div class="accordion__entry">
+                                            <h5>Payouts</h5>
+
+                                            <p>Information regarding our Payouts process</p>
+                                        </div><!-- /.accordion__entry -->
+                                        
+                                        <a href="#" class="accordion__btn"></a>
+                                    </div><!-- /.accordion__title -->
+                                </div><!-- /.accordion__head -->
 
                                 <div class="accordion__body"></div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
