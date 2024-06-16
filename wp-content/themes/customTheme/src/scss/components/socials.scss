@@ -1,0 +1,23 @@
+// Socials 
+
+.socials {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        align-items: center;
+    }
+
+    a {
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

@@ -286,6 +286,154 @@
                 </div><!-- /.section__inner
             </div><!-- /.shell-->
         </section><!-- /.section-cta -->
+
+        <section class="section-faq">
+            <div class="shell">
+                <div class="section__inner">
+                    <div class="section__head">
+                        <h2>Got More Questions? </br>
+                            <span>Explore the FAQ</span>
+                        </h2>
+                    </div><!-- /.section__head -->
+
+                    <div class="section__body">
+                        <div class="accordion js-accordion">
+                            <div class="accordion__section is-current">
+                                <div class="accordion__head"></div><!-- /.accordion__head -->
+
+                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head"></div><!-- /.accordion__head -->
+
+                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head"></div><!-- /.accordion__head -->
+
+                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head"></div><!-- /.accordion__head -->
+
+                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+                        </div><!-- /.accordion -->
+                    </div><!-- /.section__body -->
+                </div><!-- /.section__inner -->
+            </div><!-- /.shell-->
+        </section><!-- /.section-faq -->
     </main><!-- /.main -->
+
+    <footer class="footer">
+        <div class="shell">
+            <div class="footer__inner">
+                <a href="" class="footer__logo">
+                    <span>Tradelogo</span>
+
+                    <p>Business Tagline</p>
+                </a><!-- /.footer__logo -->
+
+                <nav class="footer__nav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">How it Works</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Programs</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Symbols</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Learn</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Competition</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Be a Partner</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.footer__nav -->
+
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/facebook.svg">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/x.svg">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/instagram.svg">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/youtube.svg">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/discord.svg">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="<?php echo get_template_directory_uri(); ?>/src/images/telegram.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.socials -->
+            </div><!-- /.footer__inner -->
+
+            <div class="footer__content">
+                <p>All content published and distributed by Iconic Exchange FZCO t/a Blue Guardian and its affiliates (collectively, the “Company”) is to be treated as general information only. None of the information provided by the Company or contained here is intended (a) as investment advice, (b) as an offer or solicitation of an offer to buy or sell or (c) as a recommendation, endorsement or sponsorship of any security, company or fund. Testimonials appearing may not be representative of other clients or customers and is not a guarantee of future performance or success. Blue Guardian Capital is not a broker. we do not accept client deposits. All program fees are used for operation costs including, but not limited to, staff, technology and other business related expenses. Blue Guardian itself does not carry out any regulated activities, the only exclusive activities we carry out is Trading Education and consequently is not required to be authorized by the regulatory authority.</p>
+            </div><!-- /.footer__content -->
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Refund Policy</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul><!-- /.footer__links -->
+
+            <div class="copyright">
+                <p>© TraderLogo 2024. All rights reserved</p>
+            </div>
+        </div><!-- /.shell-->
+    </footer><!-- /.footer -->
 </body>
 </html>
