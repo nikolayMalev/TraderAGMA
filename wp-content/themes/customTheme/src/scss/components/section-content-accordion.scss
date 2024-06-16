@@ -1,0 +1,40 @@
+// Section-content-accordion
+
+.section-content-accordion {
+    margin-block: 121px;
+
+    .section__inner {
+        display: grid;
+        grid-template-columns: 37.9% auto;
+        column-gap: 184px;
+        align-items: center;
+    }
+
+    .section__content {
+        padding-bottom: 32px;
+    }
+
+    .section__content h2 {
+        margin-bottom: 38px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .section__content p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .section__content .section__actions {
+        margin-top: 102px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}

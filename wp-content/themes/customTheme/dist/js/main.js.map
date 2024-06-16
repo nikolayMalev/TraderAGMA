@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","names":["console","log"],"sources":["../../src/js/main.js"],"sourcesContent":["// main.js\n\nconsole.log('Loaded');\n\nimport \"./modules/accordion-criteria.js\"; // Example import from modules directory\n"],"mappings":"AAAA;;AAEAA,OAAO,CAACC,GAAG,CAAC,QAAQ,CAAC;AAErB,OAAO,iCAAiC,CAAC,CAAC","ignoreList":[]}

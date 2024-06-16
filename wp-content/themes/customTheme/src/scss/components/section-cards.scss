@@ -1,0 +1,51 @@
+// Section-cards
+
+.section-cards {
+    padding-block: 89px 70px;
+    text-align: center;
+
+    .section__head {
+        margin-bottom: 86px;
+    }
+
+    .section__head h2 {
+        font-weight: 400;
+        color: #28418C;
+        margin-bottom: 48px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .section__head h2 span {
+        color: #FF562F;
+    }
+
+    .section__head p {
+        font-size: 20px;
+        font-weight: 300;
+        max-width: 941px;
+        margin-inline: auto;
+    }
+
+    .section__body {
+
+    }
+
+    .section__body h3 {
+        font-weight: 400;
+        color: #28418C;
+        margin-bottom: 62px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .section__body .section__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 49px;
+    }
+}

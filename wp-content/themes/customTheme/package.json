@@ -5,9 +5,16 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass src/scss/style.scss dist/css/style.css --style compressed",
-    "watch:sass": "npm run compile:sass -- --watch"
+    "watch:sass": "npm run compile:sass -- --watch",
+    "compile:js": "babel src/js -d dist/js --source-maps",
+    "watch:js": "npm run compile:js -- --watch",
+    "start": "parcel src/js/*.js --out-dir dist/js"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "parcel-bundler": "^1.12.5",
     "sass": "^1.42.1"
   }
 }
