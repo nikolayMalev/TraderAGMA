@@ -76,7 +76,7 @@
 
                         <p>Test your shootout skills and become a FPtraider <span>Legend.</span> </p>
 
-                        <p>Advance at your own speed and get up to <spna>$500’000</spna> in funding.</p>
+                        <p>Advance at your own speed and get up to <br/> <span>$500’000</span> in funding.</p>
 
                         <div class="hero__actions">
                             <a href="#" class="btn btn--outlined">Read FAQ</a>
@@ -86,11 +86,19 @@
                     </div><!-- /.hero__content -->
 
                     <div class="hero__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/hero-image.jpg" alt="Hero Image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/images/hero-image.png" alt="Hero Image">
                     </div><!-- /.hero__image -->
                 </div><!-- /.hero__inner -->
             </div><!-- /.shell-->
         </section><!-- /.hero --> 
+
+        <section class="section-intro">
+            <div class="section__content">
+                <h4>“The goal of a successful trader is to make the best trades. Money is secondary.”</h4>
+
+                <p>- Alexander Elder</p>
+            </div><!-- /.section__content --> 
+        </section><!-- /.section-intro --> 
     </main><!-- /.main -->
 </body>
 </html>

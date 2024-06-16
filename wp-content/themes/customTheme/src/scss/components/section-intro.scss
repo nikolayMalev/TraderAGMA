@@ -1,0 +1,27 @@
+// Section-intro
+
+.section-intro {
+    padding: 53px 50px 32px;
+    background-color: #28418C;
+    color: #fff;
+
+    .section__content {
+        margin-inline: auto;
+        max-width: 854px;    
+        text-align: right;
+    }
+
+    .section__content h4 {
+        margin-bottom: 13px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .section__content p {
+        color: #C2F2FF;
+        padding-right: 12px;
+    }
+
+}

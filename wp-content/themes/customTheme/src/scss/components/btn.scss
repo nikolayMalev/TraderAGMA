@@ -1,13 +1,16 @@
 // Btn
 
 .btn {
+    font-size: 20px;
+    line-height: 1.2;
     color: #fff;
     background: linear-gradient(to bottom right, #EC3A3A, #F87B46);
     padding: 12px 72px 12px 24px;
     position: relative;
     border-radius: 99em;
+    display: inline-block;
 
-    &:after {
+    &:before {
         content: '';
         position: absolute;
         width: 18px;
@@ -15,6 +18,19 @@
         top: 50%;
         right: 26px;
         transform: translateY(-50%);
-        background-image: url('../src/images/arrow-right.svg');
+        background-image: url('../../src/images/arrow-right.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 10;
     }
+}
+
+// btn--outlined 
+
+.btn--outlined {
+    color: #FF562F;
+    border: 2px solid #FF562F;
+    background-color: transparent;
+    background-image: none;
+    padding: 10px 26.5px;
 }

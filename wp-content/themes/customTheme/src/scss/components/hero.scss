@@ -5,7 +5,9 @@
     .hero__inner {
         display: grid;
         grid-template-columns: 40.3% auto;
-        gap: 100px;
+        gap: 38px;
+        min-height: 719px;
+        align-items: center;
     }
 
     .hero__content strong {
@@ -18,5 +20,76 @@
 
     .hero__content span {
         color: #FF562F;
-    }        
+        font-weight: 600;
+    }
+
+    .hero__content h1 {
+        text-transform: uppercase;
+        line-height: 0.75;
+        margin-bottom: 48px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .hero__content p {
+        margin-bottom: 8px;
+        font-size: 24px;
+        font-weight: 300;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:first-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .hero__actions {
+        margin-top: 118px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .hero__image {
+        position: relative;
+        text-align: center;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: -16px;
+            bottom: 6px;
+            width: 97%;
+            height: 84%;
+            background-image: url('../../src/images/big-circle.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 5;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 6px;
+            left: 58%;
+            width: 100%;
+            height: 67%;
+            background-image: url('../../src/images/circle.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            transform: translateX(-50%);
+        }
+    }
+    
+    .hero__image img {
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        z-index: 10;
+    }
 }
