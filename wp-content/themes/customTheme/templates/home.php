@@ -266,6 +266,26 @@
                 </div><!-- /.section__inner -->
             </div><!-- /.shell-->
         </section><!-- /.section-content-accordion --> 
+
+        <section class="section-cta">
+            <div class="shell">
+                <div class="section__inner">
+                    <div class='section__entry'>
+                        <h2>Join the Team of Our <br/>
+                            <span>Successful Traders</span>
+                        </h2>
+
+                        <p>If you are ready, accept our challenge and become a FPTrader. <br/> You can even try the entire process completely <br/> free of charge.</p>
+                    </div><!-- /.section__entry --> 
+
+                    <div class="section__actions">
+                        <a href="" class=" btn btn--outlined">Free trial</a>
+
+                        <a href="" class="btn">Start the challenge</a>
+                    </div><!-- /.section__actions -->
+                </div><!-- /.section__inner
+            </div><!-- /.shell-->
+        </section><!-- /.section-cta -->
     </main><!-- /.main -->
 </body>
 </html>
