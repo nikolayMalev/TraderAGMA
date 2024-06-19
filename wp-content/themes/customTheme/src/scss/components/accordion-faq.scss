@@ -45,5 +45,24 @@
         background-image: url("../../src/images/arrow-right-blue.svg");
         background-size: contain;
         background-repeat: no-repeat;
+        transition: transform .4s ease-out;
+    }
+
+    .accordion__body {
+        font-size: 16px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .4s ease-out;
+    }
+
+    // is-current
+
+    .accordion__section.is-current .accordion__body {
+        max-height: 1000px;
+        padding-bottom: 6px;
+    }
+
+    .accordion__section.is-current .accordion__btn {
+        transform: rotate(90deg);
     }
 }

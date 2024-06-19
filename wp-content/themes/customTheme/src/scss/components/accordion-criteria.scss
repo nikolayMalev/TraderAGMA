@@ -26,7 +26,7 @@
         font-size: 16px;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.4s ease-out;
+        transition: max-height .4s ease-out;
     }
 
     .accordion__body p {
@@ -40,11 +40,7 @@
         height: 24px; 
         background-image: url('../../src/images/accordion-open.svg');
         background-size: contain;
-        transition: transform 0.3s ease; 
-
-        &.is-open {
-            transform: rotate(180deg); 
-        }
+        transition: transform .4s ease-out; 
     }
 
 

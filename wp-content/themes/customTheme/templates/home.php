@@ -170,12 +170,206 @@
                 <div class="tabs-programs js-tabs-programs">
                     <div class="tabs__head">
                         <div class="tabs__nav">
-                            <ul>
+                            <div class="tabs__balance">
+                                <h6>Select balance</h6>
+                                <ul>
+                                    <a href="" class='tabs__balance-pointer'></a>
+                                    <li><a href="#">$5,000</a></li>
+                                    <li><a href="#">$10,000</a></li>
+                                    <li><a href="#">$25,000</a></li>
+                                    <li><a href="#">$50,000</a></li>
+                                    <li><a href="#">$100,000</a></li>
+                                    <li><a href="#">$200,000</a></li>
+                                    <li><a href="#">$250,000</a></li>
+                                    <li><a href="#">$500,000</a></li>
+                                </ul>
+                            </div><!-- /.tabs__balance -->
 
-                            </ul>
+                            <div class="tabs__programs">
+                                <h6>Select program</h6>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            Rapid
+                                            <img src="<?php echo get_template_directory_uri(); ?>/src/images/rapid.svg" class='tabs__program-default'/>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/src/images/rapid-white.svg" class='tabs__program-current'/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class='tabs__program-btn is-current'>
+                                            2-Step
+                                            <img src="<?php echo get_template_directory_uri(); ?>/src/images/2step-gray.svg" class='tabs__program-default'/>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/src/images/2step.svg" class='tabs__program-current'/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- /.tabs__programs -->
                         </div><!-- /.tabs__nav -->
-                    </div><!-- /.tabs__head --> 
+                    </div><!-- /.tabs__head -->
+
+                    <div class="tabs__body">
+                        <div class="tab__heading-2step is-visible">
+                            <p>Step 1</p>
+                            <p>Step 2</p>
+                            <p>Funded</p>
+                        </div><!-- /.tab__heading-2step -->
+
+                        <div class="tab__heading-rapid">
+                            <p>Rapid</p>
+                            <p>Funded</p>
+                        </div><!-- /.tab__heading-rapid -->
+
+                        <div class="accordion-tab js-accordion-tab">
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Profit Target</h6>
+                                    </div><!-- /.accordion__title -->
+
+                                    <p>10%</p>
+                                    <p>5%</p>
+                                    <p>No limit</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>The Profit Target represents the realized closed profit percentage that the trader must achieve in relation to their account's initial balance, in order to successfully pass the Assessment. Funded Accounts do not have Profit Targets or limits.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Daily loss limit</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>4%</</p>
+                                    <p>4%</</p>
+                                    <p>4%</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam at ipsum blanditiis tempore ducimus. Ad ab nesciunt excepturi exercitationem vitae iste eligendi, atque officiis consequatur obcaecati, necessitatibus, dolorum aperiam iure!</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Max drawdown</h6>
+                                    </div><!-- /.accordion__title -->
+
+                                    <p>8%</p>
+                                    <p>8%</p>
+                                    <p>8%</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>The Profit Target represents the realized closed profit percentage that the trader must achieve in relation to their account's initial balance, in order to successfully pass the Assessment. Funded Accounts do not have Profit Targets or limits.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Inactivity period</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>30 days</</p>
+                                    <p>30 days</</p>
+                                    <p>30 days</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nostrum veritatis ea eius dignissimos quo eaque, perspiciatis corrupti, laboriosam nobis quos similique voluptates libero quae unde error dolorem. Repellat, consectetur.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Leverage</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>1:30</p>
+                                    <p>1:30</p>
+                                    <p>1:30</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt iste consequatur dignissimos esse minus distinctio, repellendus repudiandae culpa perferendis, reprehenderit fuga voluptas assumenda tempore nemo nisi odio aspernatur cumque.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Stoploss required</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>No</</p>
+                                    <p>No</</p>
+                                    <p>No</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias perspiciatis aperiam, at nemo nobis! Natus reiciendis quos quaerat. Laboriosam voluptatibus hic sunt blanditiis porro voluptatum molestias amet assumenda fuga?</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Weekend positions</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>No</</p>
+                                    <p>No</</p>
+                                    <p>No</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae facilis obcaecati officia, delectus tenetur deleniti perferendis eaque corporis veritatis molestiae vel harum dolore quos sequi reprehenderit nesciunt, doloremque laudantium.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Trading day limits</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>None</</p>
+                                    <p>None</</p>
+                                    <p>None</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea suscipit eos quam nostrum ullam, ducimus numquam error asperiores enim rerum recusandae maxime quos molestias voluptatum reiciendis officiis labore. Laudantium.</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+
+                            <div class="accordion__section">
+                                <div class="accordion__head">
+                                    <div class="accordion__title">
+                                        <a href="" class="accordion__btn"></a><!-- /.accordion__btn -->
+                                        <h6>Profit share</h6>
+                                    </div><!-- /.accordion__title -->
+                                    <p>No</</p>
+                                    <p>No</</p>
+                                    <p>Up to 90%</</p>
+                                </div><!-- /.accordion__head -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sunt unde est itaque architecto eveniet accusamus doloribus ea! Aut quasi incidunt id! Sequi voluptas aliquid dolorem eaque? Ipsum, expedita cupiditate?</p>
+                                </div><!-- /.accordion__body -->
+                            </div><!-- /.accordion__section -->
+                        </div><!-- /.accordion-tab -->
+                    </div><!-- /.tabs__body -->
+
+                    <div class="tabs__footer">
+                        <h6>Account price: 
+                            <span>$56.00</span>
+                        </h6>
+                        <p>Add-ons available during checkout</p>
+                    </div><!-- /.tabs__footer -->
                 </div><!-- /.tabs-programs -->
+
+                <div class="section__actions">
+                    <a href="" class='btn'>Start FPT Assessment</a>
+                </div><!-- /.section__actions -->
             </div><!-- /.shell-->
         </section><!-- /.section-programs -->
 
@@ -316,7 +510,10 @@
                                     </div><!-- /.accordion__title -->
                                 </div><!-- /.accordion__head -->
 
-                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nostrum. Ipsam, dolorem laborum accusamus, itaque veritatis enim ipsum aliquam blanditiis consectetur est perspiciatis consequatur? Sed tenetur dolorem minus quod distinctio?</p>
+
+                                </div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
@@ -337,7 +534,9 @@
                                     </div><!-- /.accordion__title -->
                                 </div><!-- /.accordion__head -->
 
-                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nostrum. Ipsam, dolorem laborum accusamus, itaque veritatis enim ipsum aliquam blanditiis consectetur est perspiciatis consequatur? Sed tenetur dolorem minus quod distinctio?</p>
+                                </div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
@@ -358,7 +557,9 @@
                                     </div><!-- /.accordion__title -->
                                 </div><!-- /.accordion__head -->
 
-                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nostrum. Ipsam, dolorem laborum accusamus, itaque veritatis enim ipsum aliquam blanditiis consectetur est perspiciatis consequatur? Sed tenetur dolorem minus quod distinctio?</p>
+                                </div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
 
                             <div class="accordion__section">
@@ -379,7 +580,9 @@
                                     </div><!-- /.accordion__title -->
                                 </div><!-- /.accordion__head -->
 
-                                <div class="accordion__body"></div><!-- /.accordion__body -->
+                                <div class="accordion__body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nostrum. Ipsam, dolorem laborum accusamus, itaque veritatis enim ipsum aliquam blanditiis consectetur est perspiciatis consequatur? Sed tenetur dolorem minus quod distinctio?</p>
+                                </div><!-- /.accordion__body -->
                             </div><!-- /.accordion__section -->
                         </div><!-- /.accordion -->
                     </div><!-- /.section__body -->

@@ -1,0 +1,59 @@
+// Accordion-tab
+
+.accordion-tab {
+    .accordion__head {
+        display: grid;
+        grid-template-columns: 27.2% repeat(3, 1fr);
+        padding: 20px 48px 20px 15px;
+    }
+
+    .accordion__head p {
+        text-align: center;
+    }
+
+    .accordion__title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .accordion__title h6 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        padding-left: 27px;
+    }
+
+    .accordion__body {
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 300;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #F6FAFB;
+        transition: max-height .4s ease, padding .3s;
+    }
+
+    .accordion__body p {
+        padding: 10px 10px 11px 12px;
+    }
+
+    .accordion__btn {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url('../../src/images/btn-plus-gray.svg');
+        background-size: contain;
+        transition: background-image .4s ease-out;
+    }
+
+    // is-current 
+
+    .accordion__section.is-current .accordion__btn {
+        background-image: url('../../src/images/btn-minus-grad.svg');
+    }
+
+    .accordion__section.is-current .accordion__body {
+        max-height: auto;
+    }
+}

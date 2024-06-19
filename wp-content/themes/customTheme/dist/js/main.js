@@ -1,5 +1,5 @@
 // main.js
 
-console.log('Loaded');
-import "./modules/accordion-criteria.js"; // Example import from modules directory
+import "./modules/accordion-criteria.js";
+import "./modules/tabs-programs.js";
 //# sourceMappingURL=main.js.map
