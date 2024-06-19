@@ -130,19 +130,17 @@
                             </div><!-- /.card__entry -->
                         </div><!--/.card -->
 
-                        <div class="card">
+                        <div class="card card--alt">
                             <img src="<?php echo get_template_directory_uri(); ?>/src/images/trophy.png" class='card__image'>
 
                             <h5>Phase 2</h5>
 
-                            <p></p>
+                            <p>Reach the target and maintain your virtual profit levels throughout your final evaluation period to get verified.</p>
 
-                            <div class="card__entry">
-                                <p>Prove your skills and discipline by observing the Simulated Trading Objectives.</p>
-
+                            <div class="card__entry"> 
                                 <ul>
-                                    <li>Grow your simulated account to the Target Amount.</li>
-                                    <li>Achieve your Target within the simulated Drawdown limit.</li>
+                                    <li>Maintain pofitability & minimize losses.</li>
+                                    <li>Ensure trading consistency & discipline.</li>
                                     <li>Stick to the Simulated Trading Rules.</li>
                                 </ul>
                             </div><!-- /.card__entry -->
@@ -153,9 +151,10 @@
                         <h3>FPTrader</h3>
 
                         <p>You are now a 
-                            <span>FPTrader</span>
-                            ! Trade responsibly and consistently and you can earn up to XX% of the profit you make. If you are profitable month after months, we offer to increase your account balance according to our scaling plan.
+                            <span>FPTrader</span>! Trade responsibly and consistently and you can earn up to XX% of the profit you make. If you are profitable month after months, we offer to increase your account balance according to our scaling plan.
                         </p>
+
+                        <a href="#" class="btn">Start the challenge</a>
                     </div><!-- /.section__actions -->
                 </div><!-- /.section__body -->
             </div><!-- /.shell-->
@@ -586,6 +585,10 @@
                             </div><!-- /.accordion__section -->
                         </div><!-- /.accordion -->
                     </div><!-- /.section__body -->
+
+                    <div class="section__actions">
+                        <a href="" class="btn btn--outlined">Read FAQ</a>
+                    </div><!-- /.section__actions -->
                 </div><!-- /.section__inner -->
             </div><!-- /.shell-->
         </section><!-- /.section-faq -->

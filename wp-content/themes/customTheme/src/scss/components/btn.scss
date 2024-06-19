@@ -9,6 +9,8 @@
     position: relative;
     border-radius: 99em;
     display: inline-block;
+    filter: drop-shadow(0 4px 4px rgba(255, 196, 68, 0.15)) 
+    drop-shadow(0 20px 10px rgba(191, 4, 19, 0.3)); 
 
     &:before {
         content: '';
@@ -33,4 +35,8 @@
     background-color: transparent;
     background-image: none;
     padding: 10px 26.5px;
+
+    &:before {
+        display: none;
+    }
 }

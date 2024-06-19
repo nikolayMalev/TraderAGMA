@@ -2,6 +2,17 @@
 
 .header {
     padding-block: 24px 20px;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, #fff, #DEF6FD);
+    }
 
     .header__inner {
         display: flex;
@@ -17,9 +28,11 @@
         column-gap: 79px;
         row-gap: 30px;
         align-items: center;
+        position: relative;
     }
 
     .header__btn {
+        position: relative;
         color: #fff;
         font-size: 20px;
         font-weight: 400;

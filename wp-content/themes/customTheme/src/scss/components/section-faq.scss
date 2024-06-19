@@ -1,15 +1,20 @@
 // Section-faq
 
 .section-faq {
-    margin-block: 118px 100px;
+    margin-block: 105px 100px;
 
     .section__head {
         text-align: center;
-        margin-bottom: 72px;
+        margin-bottom: 64px;
     }
 
     .section__body {
-        max-width: 972px;
+        max-width: 996px;
         margin-inline: auto;
+    }
+
+    .section__actions {
+        margin-top: 32px;
+        text-align: center;
     }
 }

@@ -2,7 +2,7 @@
 
 .section-programs {
     background-color: #28418C;
-    padding-block: 66px 75px;
+    padding-block: 66px 65px;
 
     .section__head {
         text-align: center;
@@ -17,8 +17,4 @@
         text-align: center;
     }
 
-    .section__actions .btn {
-        filter: drop-shadow(0 4px 4px rgba(255, 196, 68, 0.15)) 
-                drop-shadow(0 20px 10px rgba(191, 4, 19, 0.3)); 
-    }
 }

@@ -1,17 +1,22 @@
 // Section-cards
 
 .section-cards {
-    padding-block: 89px 70px;
+    padding-block: 76px 70px;
     text-align: center;
+    background-image: linear-gradient(
+        to top right,
+        rgba(221, 246, 253, 0.7) 0%,
+        rgba(255, 255, 255, 0) 30%
+    );
 
     .section__head {
-        margin-bottom: 86px;
+        margin-bottom: 72px;
     }
 
     .section__head h2 {
         font-weight: 400;
         color: #28418C;
-        margin-bottom: 48px;
+        margin-bottom: 39px;
 
         &:last-child {
             margin-bottom: 0;
@@ -29,14 +34,10 @@
         margin-inline: auto;
     }
 
-    .section__body {
-
-    }
-
     .section__body h3 {
         font-weight: 400;
         color: #28418C;
-        margin-bottom: 62px;
+        margin-bottom: 51px;
 
         &:last-child {
             margin-bottom: 0;
@@ -47,5 +48,31 @@
         display: flex;
         flex-wrap: wrap;
         gap: 49px;
+        margin-bottom: 68px;
+    }
+
+    .section__actions h3 {
+        margin-bottom: 21px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .section__actions p {
+        padding-left: 6px;
+        font-size: 20px;
+        font-weight: 300;
+        max-width: 892px;
+        margin-inline: auto;
+    }
+
+    .section__actions p span {
+        font-weight: 500;
+        color: #FF562F;
+    }
+
+    .section__actions .btn {
+        margin-top: 62px;
     }
 }

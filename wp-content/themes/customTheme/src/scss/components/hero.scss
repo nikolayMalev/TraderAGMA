@@ -1,6 +1,17 @@
 // Hero
 
 .hero {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, #fff, #DEF6FD);
+    }
 
     .hero__inner {
         display: grid;
@@ -8,6 +19,12 @@
         gap: 38px;
         min-height: 719px;
         align-items: center;
+    }
+
+    .hero__content {
+        padding-block: 20px 38px;
+        padding-left: 50px;
+        position: relative;
     }
 
     .hero__content strong {
@@ -66,7 +83,7 @@
             content: '';
             position: absolute;
             left: -16px;
-            bottom: 6px;
+            bottom: 0;
             width: 97%;
             height: 84%;
             background-image: url('../../src/images/big-circle.png');
@@ -78,7 +95,7 @@
         &:after {
             content: '';
             position: absolute;
-            bottom: 6px;
+            bottom: 0;
             left: 58%;
             width: 100%;
             height: 67%;
@@ -95,5 +112,6 @@
         object-fit: cover;
         position: relative;
         z-index: 10;
+        margin-bottom: -7px;
     }
 }

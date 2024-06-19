@@ -4,11 +4,26 @@
     padding: 32px 32px 31px;
     color: #fff;
     background-color: #28418C;
-    background-image: linear-gradient(to right, #28418C, rgba(40, 65, 140, .54), rgba(40, 65, 140, 0));
     text-align: left;
     width: calc(50% - 25px);
     border-radius: 25px;
     position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 30%;
+        width: 40%;
+        height: 100%;
+        background-image: linear-gradient(to right, #28418C, rgba(40, 65, 140, .54), rgba(40, 65, 140, 0));
+        z-index: 2;
+    }
+
+    p {
+        position: relative;
+        z-index: 5;
+    }
 
     h5 {
         font-family: 'Kanit', sans-serif;
@@ -28,7 +43,7 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
-        opacity: .4;
+        opacity: .8;
         z-index: 1;
     }
 
@@ -60,7 +75,37 @@
             z-index: 5;
         }
     }
-
-
 }
 
+// Card--alt
+
+.card--alt {
+    background-color: #F77746;
+
+    &:after {
+        background-image: linear-gradient(to right, #F77746, rgba(#F77746, 0));
+        right: 32%;
+    }
+
+    p {
+        max-width: 372px;
+    }
+
+    .card__image {
+        opacity: .4;
+    }
+
+    .card__entry {
+        font-size: 16px;
+    }
+
+    .card__entry li {
+        padding-left: 14px;
+
+        &:after {
+            top: 12px;
+            width: 4px;
+            height: 4px;
+        }
+    }
+}
