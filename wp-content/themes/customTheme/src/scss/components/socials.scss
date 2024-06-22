@@ -1,18 +1,32 @@
 // Socials 
 
 .socials {
+
+    @media screen and (max-width: $breakpoint-large-desktop) {
+        width: 100%;
+    }
+
     ul {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
         align-items: center;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            justify-content: end;
+        }
     }
 
     a {
         display: block;
         height: 32px;
         width: 32px;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            height: 26px;
+            width: 26px;
+        }
     }
 
     img {

@@ -4,6 +4,14 @@
     max-width: 1506px;
     padding-inline: 50px;
     margin-inline: auto;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        padding-inline: 40px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        padding-inline: 20px;
+    }
 }
 
 // Shell--large

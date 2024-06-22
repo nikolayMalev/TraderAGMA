@@ -5,6 +5,14 @@
     background-color: #28418C;
     color: #fff;
 
+    @media screen and (max-width: $breakpoint-tablet) {
+        padding: 40px 0 30px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        padding-block: 30px;
+    }
+
     .section__content {
         margin-inline: auto;
         max-width: 854px;    
@@ -22,6 +30,10 @@
     .section__content p {
         color: #C2F2FF;
         padding-right: 12px;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            padding-right: 0;
+        }
     }
 
 }

@@ -3,19 +3,60 @@
 .section-content-accordion {
     margin-block: 121px;
 
+    @media screen and (max-width: $breakpoint-small-desktop) {
+        margin-block: 70px;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        margin-block: 55px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        margin-block: 40px;
+    }
+
     .section__inner {
         display: grid;
         grid-template-columns: 37.9% auto;
         column-gap: 184px;
         align-items: center;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            column-gap: 120px;
+        }
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            column-gap: 50px;
+            grid-template-columns: 43.9% auto;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            grid-template-columns: 1fr;
+        }
     }
 
     .section__content {
         padding-bottom: 32px;   
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            display: contents;
+        }
     }
 
     .section__content h2 {
         margin-bottom: 38px;
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            margin-bottom: 30px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            margin-bottom: 25px;
+        }
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            margin-bottom: 20px;
+        }
 
         &:last-child {
             margin-bottom: 0;
@@ -25,6 +66,10 @@
     .section__content p {
         font-size: 20px;
         font-weight: 300;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            margin-bottom: 30px;
+        }
     }
 
     .section__content .section__actions {
@@ -32,6 +77,20 @@
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            margin-top: 50px;
+            gap: 10px;
+        }
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            order: 5;
+            justify-content: center;
+        }
 
         &:first-child {
             margin-top: 0;

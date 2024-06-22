@@ -15,6 +15,13 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 23px;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            gap: 16px;
+            flex-direction: column;
+            margin-bottom: 10px;
+            align-items: flex-start;
+        }
     }
 
     .accordion__title {
@@ -28,6 +35,38 @@
         border-radius: 24px;
         position: relative;
 
+        @media screen and (max-width: $breakpoint-mobile) {
+            padding: 14px;
+            width: 100%;
+        }
+    }
+
+    .accordion__entry {
+        @media screen and (max-width: $breakpoint-mobile) {
+            width: 80%;
+        }
+    }
+
+    .accordion__entry p {
+        @media screen and (max-width: $breakpoint-mobile) {
+            margin-bottom: 16px;
+        }
+    }
+
+    .accordion__image {
+        @media screen and (max-width: $breakpoint-mobile) {
+            padding-left: 8px;
+        }
+    }
+
+    .accordion__image img {
+        height: 72px;
+        width: 72px;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            height: 66px;
+            width: 66px;
+        }
     }
 
     .accordion__title h5 {
@@ -65,6 +104,10 @@
         max-height: 0;
         overflow: hidden;
         transition: max-height .4s ease-out;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            padding-left: 10px;
+        }
     }
 
     // is-current

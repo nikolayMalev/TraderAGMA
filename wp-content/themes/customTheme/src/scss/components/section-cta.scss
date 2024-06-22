@@ -5,9 +5,34 @@
     text-align: center;
     font-size: 20px;
     background: linear-gradient(to bottom, rgba(#DCF5FC, .3), rgba(#DCF5FC, 1));
+    
+    @media screen and (max-width: $breakpoint-small-desktop) {
+        padding-block: 110px;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        padding-block: 60px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        padding-block: 40px;
+        font-size: 18px;
+    }
 
     h2 {
         margin-bottom: 76px;
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            margin-bottom: 56px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            margin-bottom: 40px;
+        }
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            margin-bottom: 30px;
+        }
     }
 
     p {
@@ -21,6 +46,10 @@
         max-width: 986px;
         margin-inline: auto;
 
+        @media screen and (max-width: $breakpoint-mobile) {
+            padding-top: 0;
+        }
+
         &:before,
         &:after {
             content: '';
@@ -30,6 +59,10 @@
             width: 122px;
             background-repeat: no-repeat;
             background-size: contain;
+
+            @media screen and (max-width: $breakpoint-mobile) {
+                display: none;
+            }
         }
 
         &:before {
@@ -43,16 +76,41 @@
         }
     }
 
+    .section__entry br {
+        @media screen and (max-width: $breakpoint-mobile) {
+            display: none;
+        }
+    }
+
     .section__actions {
         margin-top: 98px;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
         justify-content: center;
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            margin-top: 68px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            margin-top: 48px;
+        }
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            margin-top: 30px;
+            gap: 10px;
+        }
     }
 
     .section__actions .btn--outlined {
         padding-inline: 29px;
+    }
+
+    .section__actions a {
+        @media screen and (max-width: $breakpoint-mobile) {
+            align-self: center;
+        }
     }
 
 }

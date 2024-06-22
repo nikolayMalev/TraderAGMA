@@ -4,6 +4,14 @@
     padding-block: 24px 20px;
     position: relative;
 
+    @media screen and (max-width: $breakpoint-small-desktop) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
     &:before {
         content: '';
         position: absolute;
@@ -20,6 +28,15 @@
         flex-wrap: wrap;
         column-gap: 139px;
         row-gap: 30px;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            column-gap: 20px;
+            justify-content: space-around;
+        }
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            justify-content: unset;
+        }
     }
 
     .header__nav {
@@ -29,6 +46,17 @@
         row-gap: 30px;
         align-items: center;
         position: relative;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            column-gap: 20px;
+        }
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            position: relative;
+        }
     }
 
     .header__btn {
@@ -40,5 +68,38 @@
         padding: 9px 24px;
         background-color: #28418C;
         border-radius: 99em;
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            display: block;
+        }
+    }
+
+    .header__actions {
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            padding: 0 50px 20px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            padding-inline: 40px;
+        }   
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            padding-inline: 20px;
+        }
     }
 }
+
+// Menu
+
+body.has-menu .header {
+    height: 100%;
+
+    .header__actions {
+        display: block;
+    }
+}
+

@@ -5,6 +5,20 @@
     padding: 70px 67px 28px;
     border-radius: 30px;
     margin-bottom: 63px;
+
+    @media screen and (max-width: $breakpoint-large-desktop) {
+        padding: 40px 40px 28px;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        margin-bottom: 45px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        padding: 30px 20px 20px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
     
     .tabs__head {
         margin-bottom: 32px;
@@ -15,6 +29,19 @@
         grid-template-columns: 76.3% auto; 
         align-items: center;
         gap: 4px;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .tabs__balance {
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
     }
 
     .tabs__balance,
@@ -46,12 +73,16 @@
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
+
+        @media screen and (max-width: $breakpoint-large-desktop) {
+            flex-direction: column;
+        }
     }
 
     .tabs__balance ul {
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(auto-fill, 112px);
+        grid-template-columns: repeat(auto-fit, minmax(102px, 1fr));
         gap: 8px;
     }
 
@@ -79,7 +110,7 @@
     .tabs__balance a:not(.tabs__balance-pointer) {
         display: block;
         position: relative;
-        padding: 8px 8px 8px 8px;
+        padding: 8px 8px 8px 28px;
         text-align: right;
         background-color: rgba(#EDF5F7, .5);
         border-radius: 6px;
@@ -101,20 +132,20 @@
         padding: 8px 16px;
         display: flex;
         flex-wrap: wrap;
+        gap: 5px;
         background-color: rgba(#EDF5F7, .5);
         border-radius: 8px;
         align-items: center;
+        justify-content: space-between;
     }
 
     .tabs__programs .tabs__program-btn img{
-        margin-left: 23px;
         width: 32px;
         height: 24px;
         object-fit: contain;
     }
 
     .tabs__programs a img {
-        margin-left: 39px;
         width: 21.5px;
         height: 17.5px;
         object-fit: contain;
@@ -127,11 +158,24 @@
         line-height: 1.5;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            border-radius: 5px;
+            font-size: 18px;
+        }
     }   
 
     .tab__heading-rapid > *,
     .tab__heading-2step > * {
         width: 25%;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            width: 22.9%;
+        }
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            width: 33.333%;
+        }
     }
 
     .tabs__footer {
@@ -196,5 +240,9 @@
         text-align: center;
         background-color: #28418C;
         color: #fff;    
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            padding: 9px;
+        }
     }
 }

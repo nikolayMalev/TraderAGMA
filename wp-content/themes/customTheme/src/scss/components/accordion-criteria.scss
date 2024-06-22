@@ -40,6 +40,7 @@
         height: 24px; 
         background-image: url('../../src/images/accordion-open.svg');
         background-size: contain;
+        background-repeat: no-repeat;
         transition: transform .4s ease-out; 
 
         &:after {

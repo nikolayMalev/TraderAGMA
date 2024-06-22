@@ -3,6 +3,8 @@
 .logo {
     width: 206px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 999;
 
     span {
         font-size: 36px;

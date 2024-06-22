@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+$breakpoint-large-desktop: 1509px;
+$breakpoint-small-desktop: 1199px;
+$breakpoint-tablet: 1023px;
+$breakpoint-mobile: 767px;
+$breakpoint-small-mobile: 374px;
+
 body {
     font-family: 'Kanit', sans-serif;
     font-size: 16px;
@@ -25,6 +31,22 @@ h1 {
     font-size: 110px;
     font-family: 'Playfair Display SC', sans-serif;
     color: #FF562F;
+
+    @media screen and (max-width: $breakpoint-large-desktop) {
+        font-size: 90px;
+    }
+
+    @media screen and (max-width: $breakpoint-small-desktop) {
+        font-size: 60px;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        font-size: 46px;
+    }
 }
 
 h2 {
@@ -32,6 +54,14 @@ h2 {
     font-weight: 400;
     line-height: 1.25;
     color: #28418C;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        font-size: 38px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        font-size: 36px;
+    }
 }
 
 h2 span {
@@ -46,10 +76,18 @@ h3 {
 h4 {
     font-size: 24px;
     font-weight: 400;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        font-size: 20px;
+    }
 }
 
 h5 {
     font-size: 20px;
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        font-size: 18px;
+    }
 }
 
 h6 {
@@ -59,4 +97,10 @@ h6 {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+@media screen and (max-width: $breakpoint-small-desktop) {
+    .main {
+        margin-top: 108px;
+    }
 }

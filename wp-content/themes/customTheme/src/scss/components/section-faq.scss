@@ -3,9 +3,29 @@
 .section-faq {
     margin-block: 105px 100px;
 
+    @media screen and (max-width: $breakpoint-small-desktop) {
+        margin-block: 70px;
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        margin-block: 55px;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+        margin-block: 40px;
+    }
+
     .section__head {
         text-align: center;
         margin-bottom: 64px;
+
+        @media screen and (max-width: $breakpoint-small-desktop) {
+            margin-bottom: 50px;
+        }
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            margin-bottom: 35px;
+        }
     }
 
     .section__body {

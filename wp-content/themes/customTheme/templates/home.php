@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>TraderAgma</title>
     <script type='module' src='<?php echo get_template_directory_uri(); ?>/dist/js/main.js'></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css">
 </head> 
@@ -20,6 +20,14 @@
 
                         <p>Business Tagline</p>
                     </a><!-- /.logo -->
+
+                    <div class="nav-menu-btn">
+                        <div class="nav-menu__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- /.nav-menu__icon -->
+                    </div><!-- /.nav-menu-btn -->
 
                     <nav class="nav">
                         <ul>
@@ -95,11 +103,13 @@
         </section><!-- /.hero --> 
 
         <section class="section-intro">
-            <div class="section__content">
-                <h4>“The goal of a successful trader is to make the best trades. Money is secondary.”</h4>
+            <div class="shell">
+                <div class="section__content">
+                    <h4>“The goal of a successful trader is to make the best trades. Money is secondary.”</h4>
 
-                <p>- Alexander Elder</p>
-            </div><!-- /.section__content --> 
+                    <p>- Alexander Elder</p>
+                </div><!-- /.section__content --> 
+            </div><!-- /.shell-->
         </section><!-- /.section-intro --> 
 
         <section class="section-cards">

@@ -5,15 +5,34 @@
         display: grid;
         grid-template-columns: 27.2% repeat(3, 1fr);
         padding: 20px 48px 20px 15px;
+
+        @media screen and (max-width: $breakpoint-tablet) {
+            grid-template-columns: 34.2% repeat(3, 1fr);
+        }
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 8px;
+        }
     }
 
     .accordion__head p {
         text-align: center;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            width: 33.333%;
+        }
     }
 
     .accordion__title {
         display: flex;
         flex-wrap: wrap;
+
+        @media screen and (max-width: $breakpoint-mobile) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 
     .accordion__title h6 {
