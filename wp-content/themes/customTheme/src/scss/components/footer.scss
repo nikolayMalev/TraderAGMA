@@ -90,6 +90,11 @@
         font-weight: 200;
         letter-spacing: -0.44px;
         font-size: 16px;
+        transition: color .4s;
+
+        &:hover {
+            color: #ff562f;
+        }
     }
     
     .footer__content {
@@ -145,5 +150,10 @@
     .footer__links a {
         font-size: 16px;
         letter-spacing: -0.44px ;
+        transition: color .4s;
+
+        &:hover {
+            color: #ff562f;
+        }
     }
 }

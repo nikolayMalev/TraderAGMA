@@ -15,12 +15,17 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 23px;
+        transition: opacity .4s;
 
         @media screen and (max-width: $breakpoint-mobile) {
             gap: 16px;
             flex-direction: column;
             margin-bottom: 10px;
             align-items: flex-start;
+        }
+
+        &:hover {
+            opacity: .7;
         }
     }
 

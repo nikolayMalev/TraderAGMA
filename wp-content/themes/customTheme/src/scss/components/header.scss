@@ -68,9 +68,14 @@
         padding: 9px 24px;
         background-color: #28418C;
         border-radius: 99em;
+        transition: background-color .4s;
 
         @media screen and (max-width: $breakpoint-small-desktop) {
             display: block;
+        }
+
+        &:hover {
+            background-color: #ff562f;
         }
     }
 

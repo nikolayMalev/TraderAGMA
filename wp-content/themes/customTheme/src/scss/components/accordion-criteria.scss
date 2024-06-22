@@ -21,6 +21,11 @@
         align-items: center;
         cursor: pointer; 
         margin-bottom: 8px;
+        transition: opacity .4s;
+
+        &:hover {
+            opacity: .6;
+        }
     }
 
     .accordion__body {

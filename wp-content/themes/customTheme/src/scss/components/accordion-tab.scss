@@ -5,6 +5,11 @@
         display: grid;
         grid-template-columns: 27.2% repeat(3, 1fr);
         padding: 20px 48px 20px 15px;
+        transition: opacity .4s; 
+
+        &:hover {
+            opacity: .7;
+        }
 
         @media screen and (max-width: $breakpoint-tablet) {
             grid-template-columns: 34.2% repeat(3, 1fr);

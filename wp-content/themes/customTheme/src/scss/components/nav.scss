@@ -49,6 +49,11 @@
     a {
         letter-spacing: -0.44px;
         text-decoration: none;
+        transition: color .4s after;
+
+        &:hover {
+            color: #28418c;
+        }
     }
 }
 
@@ -60,6 +65,12 @@
 
     @media screen and (max-width: $breakpoint-small-desktop) {
         display: block;
+    }
+
+    &:hover {
+        span {
+            color: #ff562f;
+        }        
     }
   
     .nav-menu__icon {
